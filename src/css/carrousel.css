@@ -1,0 +1,77 @@
+    *{
+    /* change le box model */
+        box-sizing : border-box ;
+    }
+    
+    img {
+      /* image responsive, largeur maxi */
+      /* hauteur "auto" */
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .carrousel_parent-ecrans {
+      /* aligne horizontalement les enfants */
+      /* largeur du parent */
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+        overflow-x: scroll; /* permet de scroller horizontalement */
+        scroll-behavior: smooth; /* animation de défilement */
+        scroll-snap-type: x mandatory; /* permet de scroller par blocs */
+    }
+    
+    .carrousel_ecran {
+      /* largeur du parent pour chaque enfant */
+      /* permet de garder toute la largeur du parent */
+        flex:none;
+        scroll-snap-align: start; /* aligne les enfants par blocs */
+    }
+    
+    .carrousel_ecran figure {
+      /* enlève les marges par défaut */
+        padding: 150px;
+    }
+    
+    .caroussel_liste-liens{
+        display: flex; /* aligne horizontalement les enfants */
+        justify-content: center; /*centre horizontalement les enfants */
+        gap: 1rem;/* enlève les marges par défaut */
+        list-style: none; /* enlève les padding par défaut */
+        margin: 0; /* enlève les puces par défaut */
+        padding: 0; /* espace entre les enfants */
+    }
+    
+    .carrousel {
+      position: relative;
+    }
+    
+    .carrousel_btn {
+      position: absolute;
+      top: calc(100vw / 16 * 9 / 2 + 1rem); /* centre verticalement ~50% vertical */
+      transform: translateY(-50%); /* methode du point mort */
+      width: 2rem;
+      height: 2rem;
+      background: rgba(0,0,0,0.5);
+      border-radius: 50%;
+      border: none;
+      display: grid;
+      place-content: center;
+      color: #fff;
+    }
+    
+    .carrousel_btn-avant {
+      left: 0;
+    }
+    
+    .carrousel_btn-apres {
+      right: 0;
+    }
+    
+    .caroussel_liste-liens a{
+      display: block;
+      background-color: azure;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      width: 250px;
+      text-align: center;
+    }

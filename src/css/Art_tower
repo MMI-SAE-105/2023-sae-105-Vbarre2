@@ -1,54 +1,66 @@
-
-body, h1, p {
+/* Reset des marges et des rembourrages */
+body, h1, h2, p, img {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Style du body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
 
+/* Style du header */
 header {
-    background-color: #333; /* Couleur de fond du header */
-    color: white; /* Couleur du texte du header */
-    padding: 10px;
+    background-color: #fff;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 header img {
-    width: 30px; /* Ajustez la largeur de l'icône du menu selon vos besoins */
+    width: 30px;
+}
+
+header h1 {
+    font-size: 1.5em;
 }
 
 /* Style des sections de contenu */
 body > p {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-top: 20px;
+    font-size: 1.2em;
+    margin: 15px 0;
 }
 
 body > img {
     width: 100%;
-    max-width: 800px; /* Ajustez la largeur maximale des images selon vos besoins */
+    max-width: 800px;
     margin: 20px 0;
+    border-radius: 8px; /* Coins arrondis pour les images */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Style du footer */
 footer {
-    background-color: #333; /* Couleur de fond du footer */
-    color: white; /* Couleur du texte du footer */
-    padding: 10px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer img {
-    width: 30px; /* Ajustez la largeur des icônes des réseaux sociaux selon vos besoins */
-    margin: 0 5px;
-}
-
-/* Style des liens du footer */
-footer p {
-    margin: 5px 0;
+    width: 30px;
+    margin: 0 10px;
 }
 
 /* Style spécifique pour la page Art Tower Mito */
 #Art_tower p {
-    color: #333; /* Couleur du texte pour la page spécifique */
+    color: #555; /* Couleur du texte pour la page spécifique */
 }
+
+/* Ajoutez d'autres styles personnalisés selon vos besoins */

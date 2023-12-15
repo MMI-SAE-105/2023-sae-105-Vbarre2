@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #3D056A;
+    background-color: #f0f0f0;
 }
 
 .header {
@@ -12,6 +12,29 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.titre_page {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;    
+    font-size: 1.5rem;
+    margin: 0;
+    flex-grow: 1; 
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.titre_page2 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;    
+    font-size: 1.5rem;
+    margin: 0;
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+
 
 .header__icon {
     width: 24px;
@@ -26,27 +49,80 @@ body {
     text-align: center; 
 }
 
-.img_arata {
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto; /* Ajout de cette propriété pour centrer horizontalement */
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.Titre1, .Titre2, .Titre3, .Titre4, .Titre5, .titre_page, .titre_page2 {
-    color: pink;
-    display: flex;
+
+.Titre1,
+.Titre2,
+.Titre3,
+.Titre4,
+.Titre5 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #E5BEEC; 
+    border-radius: 10px;
+    display: inline-block; 
+}
+
+img.img_arata {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+img.img_1,
+img.img_2,
+img.img_3,
+img.img_4 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
-.img_1,
-.img_2,
-.img_3,
-.img_4 {
-    width: 250px; 
-    height: 250px;
+.footer__button1,
+.footer__button2 {
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
 
+.footer__text {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.mmi {
+    width: 80px;
+}
+
+@media (max-width: 768px) {
+    .header__icon {
+        display: none;
+    }
 }

@@ -34,9 +34,6 @@ body {
     text-align: center; 
 }
 
-.header__icon {
-    width: 24px;
-}
 
 .header__title {
     color: black;

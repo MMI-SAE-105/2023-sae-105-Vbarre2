@@ -24,25 +24,37 @@ body {
     margin: 0;
     flex-grow: 1; 
     text-align: center; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.img_1 {
-    width: 80px;
+img.img_1,
+img.img_2 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
-
-.img_2 {
-    width: 80px;
-}
-
 .text1 {
     color: white;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .text2 {
     color: white;
     text-align: center;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .fleche_down {
     width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+

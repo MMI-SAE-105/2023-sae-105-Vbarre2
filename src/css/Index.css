@@ -1,0 +1,19 @@
+
+header {
+    background-color: #FFEFDB;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+h1{
+        text-align: center
+        }
+
+}
+body{
+    background-color: #3D056A;
+}
+

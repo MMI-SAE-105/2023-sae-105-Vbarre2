@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #3D056A;
-    color: #FFF;
+    color: #ffffff;
 }
 
 .footer {
@@ -10,17 +10,23 @@ body {
     color: #FFEFDB;
     padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 
 .insta, .twitter, .facebook, .mmi {
     width: 40px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .mmi {
-    margin-left:auto
+    margin-left: auto; 
 }
 
-.footer_button1{
+.footer_button1, .footer_button2 {
     background-color: #3D056A;
     width: 293px;
     height: 47px;
@@ -29,11 +35,6 @@ body {
     border-radius: 8px;
 }
 
-.footer_button2{
-    background-color: #3D056A;
-    width: 293px;
-    height: 47px;
-    flex-shrink: 0; 
-    margin-top: 20px;
-    border-radius: 8px;
+.footer__text {
+    color: black;
 }

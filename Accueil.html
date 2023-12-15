@@ -91,22 +91,25 @@
             <li><a href="#ecran-3" :class="{actif:hrefCourant==='#ecran-3'}">Écran 3</a></li>
             <li><a href="#ecran-4" :class="{actif:hrefCourant==='#ecran-4'}">Écran 4</a></li>
             <li><a href="#ecran-5" :class="{actif:hrefCourant==='#ecran-5'}">Écran 5</a></li>
+            <li><a href="#ecran-6" :class="{actif:hrefCourant==='#ecran-5'}">Écran 6</a></li>
+            <li><a href="#ecran-7" :class="{actif:hrefCourant==='#ecran-5'}">Écran 7</a></li>
+            <li><a href="#ecran-8" :class="{actif:hrefCourant==='#ecran-5'}">Écran 8</a></li>
         </ul>
     </div>
 
 
-    <footer>
+<footer class="footer"> 
     <p>Billetterie</p>
-
-    <p>Contactez-nous</p>
-    <img src="/public/img/instagram_1362857.png" >
-    <img src="/public/img/twitter_5968958.png" >
-    <img src="/public/img/facebook_1051360.png" >
+    <button class = "footer__button1">Contactez-nous</button>
+    <img src="/public/img/instagram_1362857.png" footer class="insta">
+    <img src="/public/img/twitter_5968958.png" footer class="twitter">
+    <img src="/public/img/facebook_1051360.png" footer class="facebook">
 
     <p>Ce site est un projet réalisé dans le cadre d'un exercice pédagogique au département MMI Montbéliard</p>
-    <img src="/public/img/MMi.png" >
+    <img src="/public/img/MMi.png" footer class="mmi">
 
-
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link href="/src/css/footer.css" rel="stylesheet">
 </footer>
 
 </body>

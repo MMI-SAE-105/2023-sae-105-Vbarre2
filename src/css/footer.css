@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3D056A;
+    color: #FFF;
+}
+
+.footer {
+    background-color: #FFEFDB;
+    color: #FFEFDB;
+    padding: 10px;
+    text-align: center;
+}
+
+.insta, .twitter, .facebook, .mmi {
+    width: 40px;
+}
+
+.mmi {
+    margin-left:auto
+}
+
+.footer_button1{
+    background-color: #3D056A;
+    width: 293px;
+    height: 47px;
+    flex-shrink: 0; 
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.footer_button2{
+    background-color: #3D056A;
+    width: 293px;
+    height: 47px;
+    flex-shrink: 0; 
+    margin-top: 20px;
+    border-radius: 8px;
+}

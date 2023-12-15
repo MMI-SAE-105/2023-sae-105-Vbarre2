@@ -25,24 +25,3 @@ body {
     flex-grow: 1; 
     text-align: center; 
 }
-
-.img_1 {
-    width: 80px;
-}
-
-.img_2 {
-    width: 80px;
-}
-
-.text1 {
-    color: white;
-}
-
-.text2 {
-    color: white;
-    text-align: center;
-}
-
-.fleche_down {
-    width: 80px;
-}

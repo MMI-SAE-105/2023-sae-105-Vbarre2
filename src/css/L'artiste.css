@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3D056A;
+}
+
+.header {
+    background-color: #FFEFDB;
+    color: #FFEFDB;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.header__title {
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+.img_arata {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Ajout de cette propriété pour centrer horizontalement */
+}
+
+.Titre1, .Titre2, .Titre3, .Titre4, .Titre5, .titre_page, .titre_page2 {
+    color: pink;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_1,
+.img_2,
+.img_3,
+.img_4 {
+    width: 250px; 
+    height: 250px;
+
+}

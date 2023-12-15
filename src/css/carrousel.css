@@ -6,7 +6,7 @@
     img {
       /* image responsive, largeur maxi */
       /* hauteur "auto" */
-        max-width: 100%;
+        max-width: 300px;
         height: auto;
     }
     
@@ -25,7 +25,8 @@
       /* largeur du parent pour chaque enfant */
       /* permet de garder toute la largeur du parent */
         flex:none;
-        scroll-snap-align: start; /* aligne les enfants par blocs */
+        scroll-snap-align: start; /* aligne les enfants par blocs */*
+        width: 30px;
     }
     
     .carrousel_ecran figure {

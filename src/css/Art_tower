@@ -1,0 +1,54 @@
+
+body, h1, p {
+    margin: 0;
+}
+
+
+header {
+    background-color: #333; /* Couleur de fond du header */
+    color: white; /* Couleur du texte du header */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 30px; /* Ajustez la largeur de l'icône du menu selon vos besoins */
+}
+
+/* Style des sections de contenu */
+body > p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+body > img {
+    width: 100%;
+    max-width: 800px; /* Ajustez la largeur maximale des images selon vos besoins */
+    margin: 20px 0;
+}
+
+/* Style du footer */
+footer {
+    background-color: #333; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte du footer */
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    width: 30px; /* Ajustez la largeur des icônes des réseaux sociaux selon vos besoins */
+    margin: 0 5px;
+}
+
+/* Style des liens du footer */
+footer p {
+    margin: 5px 0;
+}
+
+/* Style spécifique pour la page Art Tower Mito */
+#Art_tower p {
+    color: #333; /* Couleur du texte pour la page spécifique */
+}

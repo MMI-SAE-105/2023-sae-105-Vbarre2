@@ -1,9 +1,10 @@
+
 @import "/src/css/carrousel.css" ;
 
 .body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #3D056A;
+    background-color: 3D056A;
 }
 
 .header {
